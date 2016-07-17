@@ -6,3 +6,4 @@ class MyModel(models.Model):
     aname = models.CharField(max_length=100, null=True, blank=True)
     anint = models.IntegerField(default=999)
     astring = models.CharField(max_length=50)
+    date = models.DateField('Date', null=True, blank=True)
